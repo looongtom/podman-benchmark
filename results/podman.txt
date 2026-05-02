@@ -1,0 +1,22 @@
+=== Podman Benchmark ===
+Image:   alpine:latest
+Runs:    10
+Date:    Sat May  2 13:50:02 +07 2026
+Version: podman version 5.4.2
+
+--- Container Startup + CPU Workload ---
+Run 1: 160 ms
+Run 2: 95 ms
+Run 3: 89 ms
+Run 4: 113 ms
+Run 5: 114 ms
+Run 6: 97 ms
+Run 7: 114 ms
+Run 8: 106 ms
+Run 9: 112 ms
+Run 10: 104 ms
+
+--- Summary ---
+Min:  89 ms
+Max:  160 ms
+Avg:  110 ms

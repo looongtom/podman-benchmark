@@ -1,0 +1,22 @@
+=== Docker Benchmark ===
+Image:   alpine:latest
+Runs:    10
+Date:    Sat May  2 13:49:48 +07 2026
+Version: Docker version 29.4.2, build 055a478
+
+--- Container Startup + CPU Workload ---
+Run 1: 209 ms
+Run 2: 101 ms
+Run 3: 100 ms
+Run 4: 90 ms
+Run 5: 94 ms
+Run 6: 86 ms
+Run 7: 94 ms
+Run 8: 93 ms
+Run 9: 86 ms
+Run 10: 100 ms
+
+--- Summary ---
+Min:  86 ms
+Max:  209 ms
+Avg:  105 ms
